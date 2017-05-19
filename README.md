@@ -1,9 +1,14 @@
-Mailer
+Snail
 ==
 
-**Mailer** is an easy to use library for composing and sending emails in Dart.
+Snail is a fork of the fabulous [mailer library](https://github.com/kaisellgren/mailer) originally started by 
+Kai Sellgren and Dan Rubel and includes patches from [Tom Yeh](https://github.com/tomyeh/mailer). 
 
-Mailer supports file attachments, HTML emails and multiple transport methods.
+This fork is an attempt to abide closer to the RFC's concerning SMTP and internet messaging in general.
+
+**Snail** is an easy to use library for composing and sending emails in Dart.
+
+Snail supports file attachments, HTML emails and multiple transport methods.
 
 ## Features
 
@@ -32,7 +37,7 @@ Please call `printDebugInformation()` from the mailer package and send the outpu
 
 In this example we send an email using a Gmail account.
 ```dart
-import 'package:mailer/mailer.dart';
+import 'package:snail/snail.dart';
 
 main() {
   // If you want to use an arbitrary SMTP server, go with `new SmtpOptions()`.

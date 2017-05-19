@@ -1,3 +1,7 @@
+## 0.0.1
+* Start fork to support standards
+
+# Original Mailer changelog
 
 ## 1.1.1
 * loosen crypto dependency to '>=0.9.0 <3.0.0' as suggested in the

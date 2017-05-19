@@ -1,4 +1,4 @@
-import 'package:mailer/src/util.dart';
+import 'package:snail/src/util.dart';
 import 'package:test/test.dart';
 
 main() {

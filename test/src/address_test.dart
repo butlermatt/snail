@@ -4,7 +4,7 @@
 //----------------------------------------------------------------
 
 import 'package:test/test.dart';
-import 'package:mailer/mailer.dart';
+import 'package:snail/snail.dart';
 
 void main() {
   //var testAddr = new Address("foo@bar");

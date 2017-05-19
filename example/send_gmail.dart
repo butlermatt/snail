@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:mailer/mailer.dart';
+import 'package:snail/snail.dart';
 
 /// Test mailer by sending email to yourself
 main(List<String> rawArgs) {

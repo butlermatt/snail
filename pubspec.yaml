@@ -1,14 +1,16 @@
-name: mailer
-version: 1.1.1
+name: snail
+version: 0.0.1
 description: >
   Compose and send emails from Dart.
   Supports file attachments, HTML emails and multiple transport methods.
 authors:
+- Matthew Butler <butler.matthew@gmail.com>
+- Tom Yeh
 - Kai Sellgren <kaisellgren@gmail.com>
 - Dan Rubel <danrubel@google.com>
-homepage: http://github.com/kaisellgren/mailer
+homepage: https://github.com/butlermatt/snail
 environment:
-  sdk: '>=1.17.0 <2.0.0'
+  sdk: '>=1.19.0 <2.0.0'
 dependencies:
   mime: '>=0.9.0 <2.0.0'
   logging: '>=0.9.0 <2.0.0'
